@@ -29,6 +29,7 @@ import OpenAIKit
 struct GenerateImageExample: View {
     @State private var image: UIImage = UIImage()
     @State private var isGenerating: Bool = false
+    @State private var text: String = ""
 
     var body: some View {
         if isGenerating {
@@ -38,6 +39,8 @@ struct GenerateImageExample: View {
             .padding()
         } else {
             VStack {
+                TextField("Enter text here", text: $text)
+                    .textFieldStyle(.roundedBorder)
                 Button {
                     isGenerating = true
                     
@@ -50,7 +53,7 @@ struct GenerateImageExample: View {
 
                             let openAi = OpenAI(config)
                             let imageParam = ImageParameters(
-                                prompt: "an avocado chair",
+                                prompt: text,
                                 resolution: .small,
                                 responseFormat: .base64Json
                             )
