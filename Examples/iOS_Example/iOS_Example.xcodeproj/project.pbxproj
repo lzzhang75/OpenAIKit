@@ -43,6 +43,7 @@
 		76C0C274293FDA7B003075D2 /* DeleteFileExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C0C273293FDA7B003075D2 /* DeleteFileExample.swift */; };
 		76C0C276293FDAF3003075D2 /* DeleteFinetuneExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C0C275293FDAF3003075D2 /* DeleteFinetuneExample.swift */; };
 		7DDE422E29AFE567000BBB01 /* CreateChatCompletion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDE422D29AFE567000BBB01 /* CreateChatCompletion.swift */; };
+		A0AE89AF29D00E5900F81C2B /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AE89AE29D00E5900F81C2B /* AppConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +84,7 @@
 		76C0C273293FDA7B003075D2 /* DeleteFileExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteFileExample.swift; sourceTree = "<group>"; };
 		76C0C275293FDAF3003075D2 /* DeleteFinetuneExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteFinetuneExample.swift; sourceTree = "<group>"; };
 		7DDE422D29AFE567000BBB01 /* CreateChatCompletion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateChatCompletion.swift; sourceTree = "<group>"; };
+		A0AE89AE29D00E5900F81C2B /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +179,7 @@
 				76C0C268293FC8DF003075D2 /* Content Policy */,
 				76C0C253293FB7CC003075D2 /* iOS_ExampleApp.swift */,
 				76C0C255293FB7CC003075D2 /* ContentView.swift */,
+				A0AE89AE29D00E5900F81C2B /* AppConstants.swift */,
 				76C0C257293FB7CE003075D2 /* Assets.xcassets */,
 				76C0C259293FB7CE003075D2 /* Preview Content */,
 			);
@@ -348,6 +351,7 @@
 				761C251329403AC7005066C2 /* GenerateImageExample.swift in Sources */,
 				761C24FD2940346B005066C2 /* EditExample.swift in Sources */,
 				761C251B29403CD2005066C2 /* FileDetailsView.swift in Sources */,
+				A0AE89AF29D00E5900F81C2B /* AppConstants.swift in Sources */,
 				761C252C2940400B005066C2 /* RetrieveModelExample.swift in Sources */,
 				761C251729403CA0005066C2 /* ListFilesExample.swift in Sources */,
 				7DDE422E29AFE567000BBB01 /* CreateChatCompletion.swift in Sources */,

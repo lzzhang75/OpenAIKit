@@ -63,7 +63,7 @@ struct CreateEmbeddingsExample: View {
                     
                     Task {
                         do {
-                            let config = Configuration(organizationId: "INSERT-ORGANIZATION-ID", apiKey: "INSERT-API-KEY")
+                            let config = Configuration(organizationId: "INSERT-ORGANIZATION-ID", apiKey: Constants.API_Keys.OPENAI_APIKEY)
                             let openAI = OpenAI(config)
                             let embeddingsParam = EmbeddingsParameters(model: "text-similarity-babbage-001", input: input)
 

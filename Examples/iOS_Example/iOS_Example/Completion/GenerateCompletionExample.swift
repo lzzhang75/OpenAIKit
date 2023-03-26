@@ -53,7 +53,7 @@ struct GenerateCompletionExample: View {
                         do {
                             let config = Configuration(
                                 organizationId: "INSERT-ORGANIZATION-ID",
-                                apiKey: "INSERT-API-KEY"
+                                apiKey: Constants.API_Keys.OPENAI_APIKEY
                             )
                             let openAI = OpenAI(config)
                             let completionParameter = CompletionParameters(
