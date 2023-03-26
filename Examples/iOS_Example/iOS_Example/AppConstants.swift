@@ -9,6 +9,6 @@ import Foundation
 
 struct Constants {
     struct API_Keys {
-        static let OPENAI_APIKEY = "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"
+        static let OPENAI_APIKEY = "INSERT-API-KEY"
     }
 }
